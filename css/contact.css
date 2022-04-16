@@ -1,0 +1,55 @@
+.info {
+  height: 500px;
+  background-image: url(../images/contact-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.info .inner {
+  width: 800px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 100px auto;
+  padding: 0 50px;
+  text-align: center;
+}
+.info .inner img {
+  height: 80px;
+  margin: 20px auto;
+}
+
+
+.message .inner form {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 30px auto;
+  padding: 30px 22px;
+}
+.message .inner form input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 15px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+.message .inner form [type="text"] {
+  height: 100px;
+}
+.message .inner form [type="submit"] {
+  font-size: 15px;
+  color: #fff;
+  background-color: #3a2828;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.message .inner form [type="submit"]:hover {
+  color: #3a2828;
+  background-color: #fff;
+  border: 1px solid #3a2828;
+}
