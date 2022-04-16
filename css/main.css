@@ -1,0 +1,253 @@
+/* COMMON */
+body {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Montserrat', 'Dongle', 'Nanum Gothic', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+h3 {
+  font-size: 15px;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+p {
+  margin: 0px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.btn {
+  width: 180px;
+  padding: 10px;
+  border: 2px solid #3a2828;
+  border-radius: 4px;
+  color: #3a2828;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+}
+.btn:hover {
+  background-color: #3a2828;
+  color: #fff;
+}
+
+
+/* HEADER */
+header {
+  /* background-color: #f6f5f0; */
+  border-bottom: 1px solid #c8c8c8;
+}
+header .inner {
+  width: 1100px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative; 
+}
+header .logo {
+  height: 65px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+header .main-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  display: flex;
+}
+header .main-menu ul.menu {
+  display: flex;
+}
+header .main-menu ul.menu li {
+  position: relative;
+}
+header .main-menu ul.menu li a {
+  padding: 3px 8px;
+  display: block;
+  color: #656565;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+header .main-menu ul.menu li a:hover {
+  color: #3a2828;
+}
+header .main-menu .search {
+  height: 34px;
+  margin-left: 10px;
+  position: relative;
+}
+header .main-menu .search input {
+  width: 36px;
+  height: 34px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  color: #777;
+  font-size: 12px;
+  transition: width 0.4s;
+}
+header .main-menu .search input:focus {
+  width: 190px;
+  border-color: #baa0a0;
+}
+header .main-menu .search .material-icons {
+  height: 24px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  margin: auto;
+  transition: .4s;
+}
+header .main-menu .search.focused .material-icons {
+  opacity: 0;
+}
+
+
+/* VISUAL */
+.banner {
+  background-color: #ffc200;
+  height: 650px;
+}
+.banner .inner {
+  
+}
+.banner .titlepage {
+  position: absolute;
+  top: 250px;
+  left: 10%;
+  z-index: 1;
+}
+.banner .titlepage .brand{
+  font-family: Dongle;
+  font-size: 50px;
+  color: #3a2828;
+}
+.banner .inner .image {
+  position: absolute;
+  height: 650px;
+  right: 0;
+}
+
+.slider {
+  position: relative;
+  height: 620px;
+  overflow: hidden;
+}
+
+.slider .swiper {
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  width: calc(520px * 4 + 30px);
+  height: 550px;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((520px * 4 + 30px)/-2);
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.feature .inner {
+  width: 1500px;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.feature .inner .item {
+  width: 200px;
+  height: 200px;
+  margin: 0 50px;
+}
+.feature .inner .item:first-child {
+  width: 600px;
+}
+.feature .inner .item > img {
+  width: 200px;
+  border-radius: 200px;
+}
+.feature .inner .item > p:not() {
+  width: 200px;
+  border-radius: 200px;
+  text-align: center;
+}
+
+
+.gallery {
+  background-color: #f6f5f0;
+  padding: 5px 0;
+}
+.gallery .inner {
+  width: calc(300px * 3 + 40px);
+  right: 0;
+  left: 0;
+  margin: 50px auto;
+}
+.gallery .images {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery .images > img {
+  width: 300px;
+}
+
+footer {
+  background-color: #3a2828;
+}
+footer .inner {
+  /* position: relative; */
+  width: 1500px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+footer .inner .item {
+  width: 500px;
+  margin: 0 20px;
+  /* background-color: red; */
+}
+footer .inner .item a{
+  display: block;
+  color: #fff;
+  margin: 10px;
+  width: 80px;
+}
