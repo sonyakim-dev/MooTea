@@ -1,12 +1,6 @@
 .part {
-  width: 80%;
-  left: 0;
-  right: 0;
   margin: auto;
   text-align: center;
-}
-.part {
-  padding: 50px;
 }
 .part .item {
   display: flex;
@@ -15,14 +9,20 @@
   gap: 20px;
 }
 .part .item .detail {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 .part .item img {
   width: 500px;
 }
+.part .item p {
+  margin-top: 5px;
+}
 .part .item a {
   font-weight: 600;
   color: #3a2828;
+}
+.part .item a:hover {
+  color: #ffc200;
 }
 .part .btn {
   margin: 50px auto;
