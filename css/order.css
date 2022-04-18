@@ -1,0 +1,29 @@
+.part {
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.part {
+  padding: 50px;
+}
+.part .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.part .item .detail {
+  margin: 20px 0;
+}
+.part .item img {
+  width: 500px;
+}
+.part .item a {
+  font-weight: 600;
+  color: #3a2828;
+}
+.part .btn {
+  margin: 50px auto;
+}

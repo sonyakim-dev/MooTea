@@ -1,0 +1,22 @@
+.menu .inner {
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+.menu .inner .part {
+  padding: 50px;
+}
+.menu .inner .part:nth-child(2n+1) {
+  background-color: #f6f5f0;
+}
+.menu .inner .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.menu .inner .item img {
+  border-radius: 200px;
+  width: 200px;
+}
