@@ -59,7 +59,7 @@ header {
   border-bottom: 1px solid #c8c8c8;
 }
 header .inner {
-  width: 1300px;
+  width: 80%;
   height: 110px;
   margin: 0 auto;
   position: relative; 
@@ -137,24 +137,18 @@ footer {
   background-color: #3a2828;
 }
 footer .inner {
-  /* position: relative; */
-  width: 1500px;
-  left: 0;
-  right: 0;
+  width: 80%;
   margin: auto;
   padding: 20px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
   color: #fff;
 }
-footer .inner .item {
-  width: 500px;
-  margin: 0 20px;
-  /* background-color: red; */
-}
-footer .inner .item a{
+footer .inner .item a {
   display: block;
   color: #fff;
-  margin: 10px;
+  margin: 10px 0;
   width: 80px;
 }

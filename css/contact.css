@@ -7,7 +7,7 @@
   background-size: cover;
 }
 .info .inner {
-  width: 800px;
+  width: 70%;
   position: absolute;
   left: 0;
   right: 0;
@@ -23,7 +23,7 @@
 
 .message .inner form {
   position: relative;
-  width: 600px;
+  width: 50%;
   height: 400px;
   margin: 30px auto;
   padding: 30px 22px;
