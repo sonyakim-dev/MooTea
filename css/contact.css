@@ -16,7 +16,8 @@
   text-align: center;
 }
 .info .inner img {
-  height: 80px;
+  max-height: 80px;
+  max-width: 100%;
   margin: 20px auto;
 }
 
