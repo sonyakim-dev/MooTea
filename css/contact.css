@@ -1,6 +1,6 @@
 .info {
   height: 500px;
-  background-image: url(../images/contact-background.jpg);
+  background-image: url(../images/drinks.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -16,7 +16,8 @@
   text-align: center;
 }
 .info .inner img {
-  height: 80px;
+  max-height: 80px;
+  max-width: 100%;
   margin: 20px auto;
 }
 
