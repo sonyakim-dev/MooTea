@@ -2,7 +2,7 @@
 Created an unofficial responsive multi-page website for a local boba store, Moo Tea
 
 ## Demo Website
-https://tranquil-pavlova-238125.netlify.app/
+[Moo Tea](https://tranquil-pavlova-238125.netlify.app/)
 
 ## Tools
 HTML<br/>
